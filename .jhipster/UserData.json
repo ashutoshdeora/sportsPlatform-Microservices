@@ -1,0 +1,42 @@
+{
+    "name": "UserData",
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "javadoc": "The firstname attribute.",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "registrationDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "userName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181030085042",
+    "javadoc": "The Employee entity.",
+    "entityTableName": "user_data",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sportsPlatformMicroservices",
+    "applications": "*",
+    "microserviceName": "sportsPlatformMicroservices"
+}

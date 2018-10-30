@@ -1,0 +1,65 @@
+
+entity Country {
+	countryName String,
+    countryCode String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+	streetAddress String,
+	postalCode String,
+	city String,
+	stateProvince String,
+    counrty String,
+    countryCode String
+}
+
+/**
+ * The Employee entity.
+ */
+entity UserData {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	registrationDate Instant,
+    userName String
+	
+}
+
+entity Article {
+
+  articleName String,
+  articleSubject String,
+  catagoeryRefId String,
+  articleText String,
+  articleAuthorFullName String,
+  articleDate Instant,
+  userName String,
+  userRefId String
+}
+
+entity Comment{
+comments String,
+commentDate Instant,
+commentAuthor String,
+userName String,
+userRefId String
+}
+
+entity Tag {
+tagValue String
+} 
+
+entity Category {
+categoryValue String 
+}
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+

@@ -1,0 +1,48 @@
+{
+    "name": "Article",
+    "fields": [
+        {
+            "fieldName": "articleName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "articleSubject",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "catagoeryRefId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "articleText",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "articleAuthorFullName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "articleDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "userName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userRefId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181030085043",
+    "entityTableName": "article",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sportsPlatformMicroservices",
+    "applications": "*",
+    "microserviceName": "sportsPlatformMicroservices"
+}

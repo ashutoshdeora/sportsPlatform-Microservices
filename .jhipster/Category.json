@@ -1,0 +1,20 @@
+{
+    "name": "Category",
+    "fields": [
+        {
+            "fieldName": "categoryValue",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181030085046",
+    "entityTableName": "category",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sportsPlatformMicroservices",
+    "applications": "*",
+    "microserviceName": "sportsPlatformMicroservices"
+}
