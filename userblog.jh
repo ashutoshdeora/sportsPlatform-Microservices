@@ -1,0 +1,43 @@
+
+entity Country {
+	countryName String,
+    countryCode String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+	streetAddress String,
+	postalCode String,
+	city String,
+	stateProvince String,
+    counrty String
+}
+
+/**
+ * The Employee entity.
+ */
+entity UserData {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	registrationDate Instant
+	
+}
+
+entity Article {
+
+articleName String,
+article subject String,
+articleCatagoery String,
+articleWriterRefId String
+}
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+
