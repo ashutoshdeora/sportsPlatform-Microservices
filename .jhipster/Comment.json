@@ -1,0 +1,36 @@
+{
+    "name": "Comment",
+    "fields": [
+        {
+            "fieldName": "comments",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commentDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "commentAuthor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userRefId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181030085044",
+    "entityTableName": "comment",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sportsPlatformMicroservices",
+    "applications": "*",
+    "microserviceName": "sportsPlatformMicroservices"
+}
